@@ -165,7 +165,7 @@ const renderSlideObject = async (
               ? normalizedColorToPptxgenShapeFill(backgroundColor)
               : undefined,
             color: color ?? undefined,
-            valign: verticalAlign,
+            valign: verticalAlign ?? "middle",
             breakLine: true,
           },
         };
